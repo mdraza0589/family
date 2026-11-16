@@ -161,7 +161,7 @@ export const family = {
                     image: sahib_Profile,
                     isMarried: true,
                     spouse: {
-                        name: "Coming Soon...",
+                        name: "Mahima Sultana",
                         image: Image1,
                         personalInfo: {
                             dob: "",
