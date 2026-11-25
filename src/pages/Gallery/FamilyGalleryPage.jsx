@@ -39,6 +39,41 @@ const FamilyGalleryPage = () => {
                     <img src={All2} alt="Family" className=" object-contain rounded-2xl" />
                 </div>
 
+                {/* Saadi Sahib & Mahima Folder */}
+                <div className="mb-12 flex justify-center">
+                    <div className="group text-center">
+                        {/* Folder Icon */}
+                        <a
+                            href="https://photos.app.goo.gl/SgEmU4CAmSEe4HdG7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex flex-col items-center"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="w-14 h-14 sm:w-20 sm:h-20 md:w-24 md:h-24 
+                           text-amber-400 group-hover:text-amber-500 
+                           transition-all duration-300 group-hover:scale-110"
+                            >
+                                <path d="M10 4H3C1.9 4 1 4.9 1 6v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 
+                2-2V8c0-1.1-.9-2-2-2H12l-2-2z" />
+                            </svg>
+
+                            {/* Folder Name */}
+                            <h3 className="text-sm sm:text-lg md:text-xl font-serif font-bold 
+                           text-slate-900 mt-2">
+                                Saadi (Sahib & Mahima)
+                            </h3>
+
+                            <p className="text-xs sm:text-sm text-slate-500 mt-1">
+                                View Photos & Memories
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
                 {/* Categories */}
                 <div className="space-y-10">
                     {familyGallery.categories.map((category) => (
